@@ -1,0 +1,1 @@
+2022-11-14 11:24:00.280 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 314.8819ms

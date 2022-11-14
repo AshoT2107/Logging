@@ -1,0 +1,8 @@
+2022-11-14 11:32:02.086 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7061/WeatherForecast - -
+2022-11-14 11:32:02.271 +05:00 [INF] Executing endpoint 'Logging.Controllers.WeatherForecastController.Get (Logging)'
+2022-11-14 11:32:02.419 +05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logging.WeatherForecast] Get() on controller Logging.Controllers.WeatherForecastController (Logging).
+2022-11-14 11:32:02.581 +05:00 [INF] Information is sent 11/14/2022 11:32:02 AM
+2022-11-14 11:32:02.701 +05:00 [INF] Executing ObjectResult, writing value of type 'Logging.WeatherForecast[]'.
+2022-11-14 11:32:02.815 +05:00 [INF] Executed action Logging.Controllers.WeatherForecastController.Get (Logging) in 236.2638ms
+2022-11-14 11:32:02.946 +05:00 [INF] Executed endpoint 'Logging.Controllers.WeatherForecastController.Get (Logging)'
+2022-11-14 11:32:03.088 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7061/WeatherForecast - - - 200 - application/json;+charset=utf-8 1003.2036ms

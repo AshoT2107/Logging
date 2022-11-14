@@ -1,0 +1,29 @@
+2022-11-14 11:31:01.555 +05:00 [INF] Now listening on: https://localhost:7061
+2022-11-14 11:31:03.007 +05:00 [INF] Now listening on: http://localhost:5061
+2022-11-14 11:31:03.170 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-14 11:31:03.166 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - -
+2022-11-14 11:31:03.289 +05:00 [INF] Hosting environment: Development
+2022-11-14 11:31:03.523 +05:00 [INF] Content root path: C:\Users\ashot\Desktop\Repeat\Logging\Logging\
+2022-11-14 11:31:03.846 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - - - 200 - text/html;charset=utf-8 687.0824ms
+2022-11-14 11:31:03.858 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - -
+2022-11-14 11:31:03.860 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - -
+2022-11-14 11:31:03.998 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - - - 200 11984 application/javascript;+charset=utf-8 139.4173ms
+2022-11-14 11:31:04.149 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 288.5287ms
+2022-11-14 11:31:04.207 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - -
+2022-11-14 11:31:04.461 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 254.6017ms
+2022-11-14 11:31:09.245 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7061/WeatherForecast - -
+2022-11-14 11:31:09.393 +05:00 [INF] Executing endpoint 'Logging.Controllers.WeatherForecastController.Get (Logging)'
+2022-11-14 11:31:09.579 +05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logging.WeatherForecast] Get() on controller Logging.Controllers.WeatherForecastController (Logging).
+2022-11-14 11:31:09.765 +05:00 [INF] Information is sent 11/14/2022 11:31:09 AM
+2022-11-14 11:31:09.943 +05:00 [INF] Executing ObjectResult, writing value of type 'Logging.WeatherForecast[]'.
+2022-11-14 11:31:10.101 +05:00 [INF] Executed action Logging.Controllers.WeatherForecastController.Get (Logging) in 344.5831ms
+2022-11-14 11:31:10.243 +05:00 [INF] Executed endpoint 'Logging.Controllers.WeatherForecastController.Get (Logging)'
+2022-11-14 11:31:10.460 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7061/WeatherForecast - - - 200 - application/json;+charset=utf-8 1214.9852ms
+2022-11-14 11:31:27.281 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7061/WeatherForecast - -
+2022-11-14 11:31:27.404 +05:00 [INF] Executing endpoint 'Logging.Controllers.WeatherForecastController.Get (Logging)'
+2022-11-14 11:31:27.543 +05:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Logging.WeatherForecast] Get() on controller Logging.Controllers.WeatherForecastController (Logging).
+2022-11-14 11:31:27.690 +05:00 [INF] Information is sent 11/14/2022 11:31:27 AM
+2022-11-14 11:31:27.829 +05:00 [INF] Executing ObjectResult, writing value of type 'Logging.WeatherForecast[]'.
+2022-11-14 11:31:27.963 +05:00 [INF] Executed action Logging.Controllers.WeatherForecastController.Get (Logging) in 274.4856ms
+2022-11-14 11:31:28.103 +05:00 [INF] Executed endpoint 'Logging.Controllers.WeatherForecastController.Get (Logging)'
+2022-11-14 11:31:28.228 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7061/WeatherForecast - - - 200 - application/json;+charset=utf-8 946.0364ms
